@@ -7,6 +7,15 @@ void main() {
 }
 
 /*
+Scaffold Neleri İçerebilir?
+** Scaffold genellikle şu alanları barındırır:
+** appBar: Üstteki başlık çubuğu (AppBar).
+** body: Ana içerik alanı.
+** drawer: Yan menü (hamburger menü).
+** bottomNavigationBar: Alt gezinme çubuğu.
+** floatingActionButton: Sayfanın sağ alt köşesinde yüzen buton.
+
+/*
 void main() {
   runApp(const MyApp());
 }

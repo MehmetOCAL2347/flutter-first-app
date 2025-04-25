@@ -1,4 +1,4 @@
-# 🌈 Flutter: GradientContainer Açıklamaları
+# Flutter: GradientContainer Açıklamaları
 
 Bu dosyada, `GradientContainer` adlı basit bir Flutter uygulamasının açıklamaları yer almaktadır. Kodda hangi satır ne işe yarıyor, burada detaylı şekilde açıklanmıştır.
 

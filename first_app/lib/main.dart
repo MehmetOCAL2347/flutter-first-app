@@ -14,7 +14,7 @@ Scaffold Neleri İçerebilir?
 ** drawer: Yan menü (hamburger menü).
 ** bottomNavigationBar: Alt gezinme çubuğu.
 ** floatingActionButton: Sayfanın sağ alt köşesinde yüzen buton.
-
+*/
 /*
 void main() {
   runApp(const MyApp());

@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 //import 'package:first_app/7.Create_New_Child_Container/styled_text.dart';
 
 class GradientContainer extends StatelessWidget {
+  void onPressButton() {
+    // TODO
+  }
+
   // Constructor eklendi.
   const GradientContainer({super.key});
   @override
@@ -18,8 +22,14 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       //child: StyledText(),
-      child: Center(
+      /*child: Center(
         child: Image.asset('assets/8.Lecture/dice-1.png', width: 200),
+      ),*/
+      child: Column(
+        children: [
+          Center(child: Image.asset('assets/8.Lecture/dice-1.png', width: 200)),
+          TextButton(onPressed: onPressButton, child: Text("Roll Dice")),
+        ],
       ),
     );
   }

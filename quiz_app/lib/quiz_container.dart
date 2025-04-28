@@ -15,16 +15,28 @@ class _QuizContainer extends State<QuizContainer> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Center(child: Image.asset('assets/images/quiz-logo.png', width: 200)),
-        Center(
-          child: OutlinedButton(
-            onPressed: () {},
-            style: OutlinedButton.styleFrom(
-              foregroundColor: Colors.white,
-              textStyle: const TextStyle(fontSize: 28),
+        //Center(child: Image.asset('assets/images/quiz-logo.png', width: 200)),
+        Image.asset('assets/images/quiz-logo.png', width: 300),
+        const SizedBox(height: 30),
+        OutlinedButton(
+          onPressed: () {},
+          style: OutlinedButton.styleFrom(
+            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.all(
+                Radius.circular(5),
+              ), // <- makes corners sharp
             ),
-            child: Text("Press"),
+            side: BorderSide(
+              color: Colors.white, // Border color
+              width: 1.0, // Border thickness (height)
+            ),
+            textStyle: TextStyle(
+              fontSize: 24, // <-- set your font size here
+              fontWeight: FontWeight.bold, // optional
+            ),
           ),
+          child: Text("Press"),
         ),
       ],
     );

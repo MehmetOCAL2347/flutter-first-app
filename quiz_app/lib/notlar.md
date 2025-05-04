@@ -13,3 +13,13 @@
  - build(): Executed by Flutter when the Widget is built for the first time AND after setState() was called
 
  - dispose(): Executed by Flutter right before the Widget will be deleted (e.g., because it was displayed conditionally)
+
+
+# model folder
+
+ - burada data objeleri için class oluşturcaz
+
+
+# data folder
+
+ - burada dummy bir veri oluşturcaz

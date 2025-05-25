@@ -23,3 +23,7 @@
 # data folder
 
  - burada dummy bir veri oluşturcaz
+
+# google fonts
+
+ - https://pub.dev/packages/google_fonts/install --> Buradan indirilmesi ve kurulumu incelenebilir

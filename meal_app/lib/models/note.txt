@@ -1,0 +1,1 @@
+Burada objeler tanımlanacaktır. Widget değil birer class olarak düşünülebilir

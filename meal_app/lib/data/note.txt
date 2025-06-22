@@ -1,0 +1,1 @@
+Uygulamada kullanılacak data verisi saklanır. Burada backend bağlantısı olmadığı için dummy bir data oluşturulacaktır.

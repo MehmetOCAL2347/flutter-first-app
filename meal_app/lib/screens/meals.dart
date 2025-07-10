@@ -4,28 +4,16 @@ import 'package:meal_app/screens/meal_details.dart';
 import 'package:meal_app/widgets/meal_item.dart';
 
 class MealsScreen extends StatelessWidget {
-  const MealsScreen({
-    super.key,
-    this.title,
-    required this.meals,
-    required this.addOrDeleteFromFavorites,
-  });
+  const MealsScreen({super.key, this.title, required this.meals});
 
   final String?
   title; // Scaffold kullanabilmek için soru işareti ile tanımladık.
   final List<Meal> meals;
-  final void Function(Meal meal) addOrDeleteFromFavorites;
 
   void _selectMeal(BuildContext context, Meal meal) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder:
-            (ctx) => MealDetailsScreen(
-              meal: meal,
-              addOrDeleteFromFavorites: addOrDeleteFromFavorites,
-            ),
-      ),
-    );
+    Navigator.of(
+      context,
+    ).push(MaterialPageRoute(builder: (ctx) => MealDetailsScreen(meal: meal)));
   }
 
   @override
